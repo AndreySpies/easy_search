@@ -1,0 +1,117 @@
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar {
+  background: #926EBF !important;
+  z-index: 1000;
+}
+.box-shadow {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+.border {
+  border: 1px solid gray;
+}
+.h-500 {
+  height: 500px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+/* Navbar Section */
+nav {
+  width: 100%;
+  position: fixed !important;
+  background: transparent;
+  color: white;
+}
+nav a {
+  color: white;
+}
+.avatar img {
+  max-height: 35px;
+}
+.dropdown-item {
+  color: black;
+}
+/* End Navbar Section */
+
+/* Banner Section */
+#banner {
+  background: #926EBF;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  padding: 35vh 0 0 0;
+  color: white;
+}
+
+#banner h1 {
+  font-weight: 400 !important;
+}
+
+#banner p {
+  margin: 15px 0;
+  font-size: 23px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.mainSearch {
+  left: 50%; /* posiciona na metade da tela */
+  margin-left: 25%; /* e retrocede metade da largura */
+  text-align: center;
+  width: 50%;
+}
+
+.mainSearchInput {
+  color: white !important;
+}
+/* End Banner Section */
+
+/* Promo Section */
+.promo-title {
+  margin: 15px auto 35px auto;
+}
+.promo-card {
+  display: block;
+  text-align: center;
+  height: 300px;
+  color: #000;
+}
+.promo-card:hover {
+  transition: 0.2s;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  color: #000;
+}
+.promo-card-content {
+  margin: 35px;
+}
+.promo-card img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 120px;
+  max-height: 120px;
+}
+.promo-section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.promo-card h6 {
+  margin: 8px auto;
+  height: 55px;
+}
+.promo-card h5 {
+  margin: 16px auto;
+  font-weight: bold;
+  color: #926EBF;
+}
+.sold-by {
+  font-size: 11px;
+}
+.card-position {
+  text-align: center;
+}
+/* End Promo Section */
